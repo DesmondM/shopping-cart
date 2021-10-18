@@ -3,7 +3,7 @@ import './hero.style.scss';
 
 const Hero = () => {
     return (
-            <section class="hero is-large is-info">
+            <section class="hero is-large is-info hero-image">
                 <div className="hero-body">
                 <p className="title">
                     Modern items for great shopping
