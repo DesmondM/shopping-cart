@@ -1,9 +1,13 @@
 import React from 'react';
-import './featured-product.style.scss'
+import './featured-product.style.scss';
 
-const FeaturedProduct = () => {
+const FeaturedProduct = (product) => {
+    const {title,imageUrl, price} =product;
     return (
-        <div>
+        <div className='featured-product'>
+            <div className='featured-image'>
+                
+            </div>
             
         </div>
     )
