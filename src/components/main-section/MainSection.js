@@ -14,7 +14,7 @@ const MainSection = ({history}) => {
                     <h2>Great African wildlife</h2>
                     <p>Placeholder text descibing wht the picture is</p>
 
-                    <button className='button is-bulma' id= 'shop-now' onClick= {()=>history.push('/product/1')}>
+                    <button className='button is-black' id= 'shop-now' onClick= {()=>history.push('/product/1')}>
                         Lion Picture
                     </button>
                 </div>
